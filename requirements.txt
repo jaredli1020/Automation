@@ -1,0 +1,16 @@
+# 核心框架依赖
+playwright>=1.40.0
+pytest>=7.4.0
+pytest-playwright>=0.4.0
+requests>=2.31.0
+pyyaml>=6.0
+schedule>=1.2.0
+django>=5.0
+
+# 数据库模块（可选）
+PyMySQL>=1.1.0
+sshtunnel>=0.4.0
+paramiko>=3.0,<4.0
+
+# 配置管理（可选）
+python-dotenv>=1.0.0

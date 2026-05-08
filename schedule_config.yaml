@@ -1,0 +1,12 @@
+# 定时任务配置 - 业务项目按需填写
+# 每条任务每天在指定时间执行一次，business:target 会委托给 run_test.run() 调度
+
+jobs: {}
+  # 示例：每天 10:00 执行 demo 业务的接口测试
+  # demo_api:
+  #   enabled: false
+  #   time: "10:00"
+  #   business: "demo"
+  #   target: "api"
+  #   env: "prod"
+  #   notify: true
