@@ -1,0 +1,13 @@
+services:
+  test-server:
+    image: autotest-framework:latest
+    container_name: autotest-server
+    restart: always
+    environment:
+      - ENV=prod
+      - TZ=Asia/Shanghai
+      - REPORT_BASE_URL=http://localhost:8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../reports:/app/reports
